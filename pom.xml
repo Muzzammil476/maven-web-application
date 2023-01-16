@@ -98,14 +98,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://35.154.84.248:9980/mithuntechnologies/repository/facebook-release/</url>
+	      <name>maven Releases Nexus Repository</name>
+	      <url>http://13.235.246.246:9980/ahsaanali/repository/maven-releases//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.154.84.248:9980/mithuntechnologies/repository/facebook-snapshot/</url>
+	      <name>maven Snapshot Nexus Repository </name>
+	      <url>http://13.235.246.246:9980/ahsaanali/repository/maven-snapshots//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
