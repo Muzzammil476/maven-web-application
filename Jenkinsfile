@@ -1,6 +1,7 @@
 node {
 echo "jobName is: ${env.JOB_NAME}"
 echo "The Node Name is: ${env.NODE_NAME}"
+properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), [$class: 'JobLocalConfiguration', changeReasonComment: ''], pipelineTriggers([pollSCM('* * * * *')])])
 
 def mavenHome = tool name: 'maven_3.8.4'
 
